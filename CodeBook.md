@@ -19,3 +19,4 @@ The run_analysis.R script loads the data from the zip file, tidys the data, and 
     + The activities are identified by an id number in the data set. Use the activity_labels data file to map the activity id to the activity. Convert the activity ids to factors and set the levels of the factor to the activity label strings instead of the id numbers
 * Average each variable by activity and subject
     + Use the dplyr package to group the data by activity and subject and summarize each column of data.
+* Write the resulting tidy data table to a file for submission
